@@ -2,3 +2,7 @@
 	path = udacity-my-robot-package
 	url = https://github.com/korhanmd/udacity-my-robot-package
 	branch = main
+[submodule "udacity-ball-chaser-package"]
+	path = udacity-ball-chaser-package
+	url = https://github.com/korhanmd/udacity-ball-chaser-package
+	branch = main
