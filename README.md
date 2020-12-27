@@ -7,7 +7,8 @@ I placed it on the world from [previous project](https://github.com/korhanmd/uda
 
 You need to clone this repo with `git clone --recurse-submodules https://github.com/korhanmd/udacity-go-chase-it.git` command to get submodules in your local.
 
-There are two packages in the project. They are `my_robot` and `ball_chaser`. The submodules of this repo are these packages. `my_robot` package has robot and world definitions.
+There are two packages in the project. They are `my_robot` and `ball_chaser`. The submodules of this repo are these packages.
+You need to rename them as `my_robot` and `ball_chaser`. `my_robot` package has robot and world definitions.
 `ball_chaser` package has scripts for robot behaviour. It includes `drive_bot` and `process_image` nodes. `drive_bot` node has service to publish velocities to the robot.
 `process_image` node processes the image captured by camera. Checks for white ball. If it finds a white ball, requests service to move robot through the ball.
 
